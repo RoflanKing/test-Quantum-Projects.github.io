@@ -1,0 +1,187 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+    .info {
+        padding: 40px 0;
+    }
+    .header__language {
+        display: none !important;
+    }
+    .heder__logo {
+        display: none !important;
+    }
+    .menu__items {
+        display: none !important;
+    }
+    .header__singin {
+        top: 40px !important;
+        right: 100px !important;
+    }
+    .header__burger {
+        display: block !important;
+    }
+    .info__inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .info__title {
+        margin-bottom: 0;
+    }
+    .ingo__graph {
+        margin-top: 45px;
+    }
+    .steps__items {
+        flex-direction: column;
+    }
+    .steps__item {
+        max-width: 100% !important;
+        margin-right: 0px !important;
+    }
+    .comments__inner {
+        flex-direction: column;
+    }
+    .comments__title {
+        margin-bottom: 50px;
+    }
+    .comments__slider {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .comments__slide-photo {
+        display: block !important;
+        margin: 0 auto;
+    }
+    .comments__slide-name {
+        position: static !important;
+    }
+    .comments__slide-position {
+        position: static !important;
+        margin-bottom: 60px;
+    }
+    .comments__slide-dec {
+        top: 160px !important;
+        left: 50% !important;
+        transform: translate(-50%, 0);
+    }
+    .slick-prev {
+        left: 0px !important;
+    }
+    .comments__slider-out {
+        top: 500px !important;
+        left: 50% !important;
+        transform: translate(-50%, 0);
+        width: 55px;
+    }
+    .contactus__items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contactus {
+        padding: 48px 0;
+    }
+    .contactus__item:first-child {
+        margin-right: 0px !important;
+    }
+    .contactus__item-box {
+        padding: 80px 40px !important;
+    }
+    .footer {
+        padding: 62px 0 48px;
+    }
+    .footer__items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__item {
+        margin-right: 0px !important;
+    }
+    .footer__item:nth-child(1) {
+        order: -2;
+        margin-bottom: 54px;
+    }
+    .footer__item:nth-child(4) {
+        width: 100%;
+        margin-bottom: 40px;
+        order: -1;
+    }
+    .footer__items .footer__item:nth-child(2) {
+        max-width: 508px !important;
+    }
+    .footer__items .footer__item:nth-child(3) {
+        max-width: 508px !important;
+    }
+    .footer__item-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__item-title {
+        margin-bottom: 16px;
+    }
+    .footer__item-text {
+        margin-bottom: 32px;
+    }
+    .footer__copyright {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__copyright-item {
+        margin-bottom: 16px;
+    }
+    .comments__slider {
+        width: 100% !important;
+    }
+    .slick-next {
+        right: 0 !important;
+    }
+    .comments__slider-item {
+        padding-left: 0 !important;
+    }
+}
+@media (max-width: 768px) {
+    .contactus .contactus__item {
+        width: 80%;
+    }
+    .comments__slider {
+        width: 100% !important;
+    }
+}
+@media (max-width: 650px) {
+    .footer__item-nav {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 514px) {
+    .comments__slider-out {
+        top: 600px !important;
+    }
+    .slick-arrow {
+        position: absolute !important;
+        top: 370px !important;
+    }
+}
+@media (max-width: 425px) {
+    .container {
+        max-width: 425px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .questions__item {
+        padding: 24px 10px 24px 16px !important;
+    }
+    .contactus .contactus__item {
+        width: 100%;
+    }
+    .contactus__item-box {
+        padding: 48px 16px !important;
+    }
+}
+@media (max-width: 377px) {
+    .comments__slider-out {
+        top: 680px !important;
+    }
+}
